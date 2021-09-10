@@ -1,0 +1,85 @@
+*{
+    font-family:$my-font;
+}
+h1{
+    color:rgb(201, 198, 198);
+    font-size: 60px;
+    text-align: $my-alignment;
+}
+.navbar1 {
+    background-image: $my-bgimage;
+    height: 30rem;  
+    background-repeat: $my-repeat;
+    background-size: $my-imgsize;
+      
+}
+.navbar-nav {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+h2{
+    color: rgb(66, 66, 66);
+    text-align: $my-alignment;
+}
+button{
+    background-color: $my-button;
+    color: $my-buttontext;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.h2midt{
+    text-align: $my-alignment;
+    font-style: italic;
+}
+p{
+    padding: 20px 30px;
+}
+
+.maintxt {
+    position: relative;
+
+}
+.maintxt > img, .overlay-text {position: absolute;}
+
+.card {
+    box-shadow: $my-shadow;
+    text-align: $my-alignment;
+}
+.list-group {
+    padding: 5px 110px;
+    
+}
+.list-group-item
+{
+  overflow: hidden;  
+  padding: 5px 5px;
+  margin-bottom: -40px;
+ text-align: $my-alignment;
+}
+.mb-1 {
+    font-weight: 600;
+    color: $my-button;
+}
+.container1 {
+    align-items: $my-alignment;
+  }
+  footer{
+      text-align: $my-alignment;
+      color: white;
+      background-image: $my-bgimage;
+      height: 7rem;  
+    background-repeat: $my-repeat;
+    background-size: $my-imgsize;
+  }
+  .card-ticket {
+    box-shadow: $my-shadow;
+    text-align: $my-alignment;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 70px;
+}
+.align-items-center {
+    padding-left: 50px;
+    padding-right: 50px;
+}
